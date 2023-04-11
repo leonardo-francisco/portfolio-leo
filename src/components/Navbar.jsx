@@ -12,7 +12,7 @@ export default function Navbar() {
 
     useEffect( () => {
         if(localStorage.getItem("i18nextLng")?.length > 2){
-            i18next.changeLanguage("pt-br");
+            i18next.changeLanguage("pt-BR");
         }
     }, []);
 
@@ -32,7 +32,7 @@ export default function Navbar() {
             </ul>
             <a href={resume} rel="noreferrer" target="_blank" className=" bg-teal-500 rounded-full px-4 py-1 border border-teal-800 border border-4">{t("resume")}</a>
             <div className="flex items-right">
-               <img src={brazil} className="w-6" alt="brazil" onClick={event => handleLanguageChange(event,"pt-br")} />
+               <img src={brazil} className="w-6" alt="brazil" onClick={event => handleLanguageChange(event,"pt-BR")} />
                <img src={usa} className="w-6" alt="usa" onClick={event => handleLanguageChange(event,"en")} />
                <img src={spain} className="w-6" alt="spain" onClick={event => handleLanguageChange(event,"es")} />
             </div>

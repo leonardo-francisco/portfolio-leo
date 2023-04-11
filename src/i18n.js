@@ -10,7 +10,7 @@ i18n.use(Backend)
         backend: {
             loadPath: "/assets/i18n/{{ns}}/{{lng}}.json"
         },
-        fallbackLng: "pt-br",
+        fallbackLng: "pt-BR",
         debug: false,
         ns: [],
         interpolation: {
