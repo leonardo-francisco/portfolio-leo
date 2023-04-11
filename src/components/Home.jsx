@@ -1,7 +1,5 @@
 import {useState} from 'react'
 
-import profile from '../assets/profile.svg';
-import me from '../assets/me.svg';
 import csharp from '../assets/csharppiece.svg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faCircleArrowRight, } from "@fortawesome/free-solid-svg-icons";
